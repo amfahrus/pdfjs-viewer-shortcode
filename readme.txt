@@ -9,7 +9,7 @@ Insert a PDF viewer into pages with a simple shortcode.
 
 == Description ==
 
-Incorporate Mozilla\'s PDF.js viewer into your pages and posts with a simple shortcode. PDF.js is a javascript library for displaying pdf pages within browsers.
+Incorporate Mozilla's PDF.js viewer into your pages and posts with a simple shortcode. PDF.js is a javascript library for displaying pdf pages within browsers.
 
 Shortcode Syntax:
 
