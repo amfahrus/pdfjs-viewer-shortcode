@@ -26,7 +26,7 @@ function pdfjs_handler($incomingfrompost) {
 }
 
 function pdfjs_function($incomingfromhandler) {
-  $viewer_base_url= "/wp-content/plugins/pdfjs-viewer/web/viewer.html";
+  $viewer_base_url= "/wp-content/plugins/pdfjs-viewer-shortcode/web/viewer.html";
   
   $file_name = $incomingfromhandler["url"];
   $viewer_height = $incomingfromhandler["viewer_height"];
