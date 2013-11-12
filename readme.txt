@@ -20,6 +20,10 @@ Shortcode Syntax:
 *   viewer_height (optional): height of the viewer (default: 1360px)
 *   fullscreen (optional): true/false, displays fullscreen link above viewer (default: true)
 
+Planned Features:
+*   option to remove download and print buttons
+*   separate translation files
+
 == Installation ==
 
 <ol style=\"margin: 0px 0px 22px 22px; padding: 0px; color: #444444; font-family: sans-serif; font-size: 13px; line-height: 22px;\"> <li style=\"margin: 0px; padding: 0px;\">Either install directly from your WordPress admin panel, by searching for 'PDF.js Viewer Shortcode', or</li> <li style=\"margin: 0px; padding: 0px;\">Download from the Wordpress Plugin Repository</li> <li style=\"margin: 0px; padding: 0px;\">Upload and expand the archive into your sites wp-content/plugins directory</li> </ol>
