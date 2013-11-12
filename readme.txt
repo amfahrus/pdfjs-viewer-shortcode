@@ -16,8 +16,8 @@ Shortcode Syntax:
 [pdfjs-viewer url=http://www.website.com/test.pdf viewer_width:600px viewer_height:700px fullscreen=true]
 
 *   url (required): direct url to pdf file
-*   viewer-width (optional): width of the viewer (default: 100%)
-*   viewer-height (optional): height of the viewer (default: 1360px)
+*   viewer_width (optional): width of the viewer (default: 100%)
+*   viewer_height (optional): height of the viewer (default: 1360px)
 *   fullscreen (optional): true/false, displays fullscreen link above viewer (default: true)
 
 == Installation ==
