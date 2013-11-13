@@ -13,7 +13,7 @@ Incorporate Mozilla's PDF.js viewer into your pages and posts with a simple shor
 
 Shortcode Syntax:
 
-[pdfjs-viewer url=http://www.website.com/test.pdf viewer_width:600px viewer_height:700px fullscreen=true]
+[pdfjs-viewer url=http://www.website.com/test.pdf viewer_width=600px viewer_height=700px fullscreen=true]
 
 *   url (required): direct url to pdf file
 *   viewer_width (optional): width of the viewer (default: 100%)
