@@ -1,4 +1,4 @@
-<?php
+																														<?php
 /*
 Plugin Name: PDFjs Viewer
 Plugin URI: http://tphsfalconer.com
@@ -18,6 +18,8 @@ function pdfjs_handler($incomingfrompost) {
     'viewer_height' => '1360px',
     'viewer_width' => '100%',
     'fullscreen' => 'true',
+    'download' => 'true',
+    'print' => 'true'
   ), $incomingfrompost);
   //run function that actually does the work of the plugin
   $pdfjs_output = pdfjs_function($incomingfrompost);
@@ -26,14 +28,23 @@ function pdfjs_handler($incomingfrompost) {
 }
 
 function pdfjs_function($incomingfromhandler) {
-  $viewer_base_url= "/wp-content/plugins/pdfjs-viewer-shortcode/web/viewer.html";
+  $viewer_base_url= "/wp-content/plugins/pdfjs-viewer-shortcode/web/viewer.php";
   
   $file_name = $incomingfromhandler["url"];
   $viewer_height = $incomingfromhandler["viewer_height"];
   $viewer_width = $incomingfromhandler["viewer_width"];
   $fullscreen = $incomingfromhandler["fullscreen"];
+  $download = $incomingfromhandler["download"];
+  $print = $incomingfromhandler["print"];
   
-  $final_url = $viewer_base_url."?file=".$file_name;
+  if ($download != 'true') {
+      $download = 'false';
+  }
+  
+  if ($print != 'true') {
+      $print = 'false';
+  }
+  $final_url = $viewer_base_url."?file=".$file_name."&download=".$download."&print=".$print;
   $fullscreen_link = '';
   if($fullscreen == 'true'){
        $fullscreen_link = '<a href="'.$final_url.'">View Fullscreen</a><br>';
