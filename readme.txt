@@ -3,7 +3,7 @@ Contributors: falconerweb
 Tags: pdf, pdf.js, viewer, reader, mozilla, shortcode
 Requires at least: 3.0.1
 Tested up to: 3.6.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Insert a PDF viewer into pages with a simple shortcode.
 
