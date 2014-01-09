@@ -2,7 +2,7 @@
 /*
 Plugin Name: PDFjs Viewer
 Plugin URI: http://tphsfalconer.com
-Description: View PDFs with pdf.js
+Description: View PDFs with pdf.js. Modified by <a href="https://github.com/blackwiz/pdfjs-viewer-shortcode">Asep Muhammad Fahrus</a> for generate shortcode from file selection.
 Version: 1.1
 Author: Ben & Josh
 Author URI: http://tphsfalconer.com
